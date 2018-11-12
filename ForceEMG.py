@@ -89,6 +89,9 @@ for i in range (0,10):
     maxForce[0,i] = max(segForce[i,:]) #Max force of the segment 
     
     maxAmplitude[0,i] = max(envlpEMG[i,:])
+    
+    pxx = signal.periodogram(segEMG[i,:],fs)
+    medFreq[0,i] = np.median(pxx) 
 
 ################### Plotting Graphs  ###################################################
 
@@ -183,7 +186,13 @@ plt.ylabel('mV-sec')
 plt.xlabel('time(s)')
 plt.title('IEMG')
 
-        
+####### Plotting RMSForce vs RMS EMG ####
+
+fig7 = plt.figure()
+plt.plot(rmsForce,rmsEMG)
+plt.xlabel('Force')
+plt.ylabel('EMG')
+plt.title('RMS of Force vs RMS of EMG')        
 
 
 
