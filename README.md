@@ -11,6 +11,28 @@ During the experimental protocol MVC was performed and EMG values on the TA musc
 
 Subsequently, the experiment was conducted to represent the relationship. The experiment was done by performing increasingly stronger isometric dorsiflexion movements. The participant was asked to perform between 8 and 10 contractions of increasing intensity, each followed by a resting period (DATA: “increase_ta_emg” and “increase_ta_force”).
 
+**Some Key Graphs** 
+![](Graphs/EMG.jpg)
+![](EMGvsForce.jpg)
+
+EnvelopedEMG.jpg	Add files via upload	12 seconds ago
+IEMGPerContraction.jpg	Add files via upload	12 seconds ago
+Ignore	Create Ignore	41 seconds ago
+MaxForcePerSegment.jpg	Add files via upload	12 seconds ago
+MedianFreq.jpg	Add files via upload	12 seconds ago
+MedianFrequency.jpg	Add files via upload	12 seconds ago
+NormalizedForce.jpg	Add files via upload	12 seconds ago
+SegmentedEMG.jpg	Add files via upload	12 seconds ago
+SegmentedForce.jpg	Add files via upload	12 seconds ago
+rmsemgvsforce.jpg
+
+
+
+
+
+
+
+
 Ackowelagements:
 
 Rehabilitation Engineering Laboratory, Toronto Rehab Institute and Dr. Dimity G. Sayenko, M.D.
